@@ -3,14 +3,13 @@
 Largely inspired from https://github.com/bcoe/es2015-coverage. Added : rollup bundling and karma runner + clean and complete.
 
 - ES6 sources
-- transpiled with babel (to dist/es5/*)
-- bundled with rollup 	(to dist/bundles/*)
+- transpiled with [babel](https://babeljs.io) (to dist/es5/*)
+- bundled with [rollup](https://github.com/rollup/rollup) (to dist/bundles/*)
+- ES6 tests with [mocha](https://mochajs.org) and [chai](http://chaijs.com/) (runned directly from es6 with [babel-register](https://babeljs.io/docs/usage/babel-register/))
+- [karma](http://karma-runner.github.io) runner with on-the-fly rollup/babel bundling
+- Code coverage with [istanbul](https://istanbul.js.org/) and [nyc](https://github.com/istanbuljs/nyc) directly from ES6 tests and sources (no bundle)
 
-- ES6 tests with mocha and chai (runned directly from es6 with babel-register)
-- karma runner with on-the-fly rollup/babel bundling
-- Code coverage with istanbul and nyc directly from ES6 tests and sources (no bundle)
-
-- eslint ES6 base config for src and test
+- [eslint](http://eslint.org) ES6 base config for src and test
 
 ## Usage
 
