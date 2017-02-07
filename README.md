@@ -33,6 +33,12 @@ Don't forget to change :
 - package.json : infos (Module name, author, etc)
 - karma.conf.js and rollup.config.js : change __MY__PROJECT__ to the UMD module name of your choice
 
+## Produced outputs
+
+- dist/es5/* : commonjs unbundled files (transpiled with babel)
+- dist/bundles/index.js : umd module
+- dist/bundles/index.min.js : umd module minified with uglifyjs
+- dist/bundles/index.mjs : ES module
 
 ## Bundling with third party libs
 
