@@ -1,6 +1,6 @@
 # ES6 module boilerplate with full ES6 test suits and coverage
 
-Largely inspired from https://github.com/bcoe/es2015-coverage. Added : rollup bundling and karma runner + clean and complete.
+Largely inspired from https://istanbul.js.org/docs/tutorials/es2015/ and https://github.com/bcoe/es2015-coverage. Added : rollup bundling and karma runner + clean and complete.
 
 - ES6 sources
 - transpiled with [babel](https://babeljs.io) (to dist/es5/*)
