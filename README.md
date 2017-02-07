@@ -34,6 +34,12 @@ Don't forget to change :
 - karma.conf.js and rollup.config.js : change __MY__PROJECT__ to the UMD module name of your choice
 
 
+## Bundling with third party libs
+
+If you want to do so (for UMD modules either for distribution or karma tests), you should use :
+- [rollup-plugin-node-resolve](https://github.com/rollup/rollup-plugin-node-resolve)
+- [rollup-plugin-commonjs](https://github.com/rollup/rollup-plugin-commonjs)
+
 
 ## Licence
 
