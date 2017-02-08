@@ -1,11 +1,11 @@
 export class Foo {
-	constructor(){
+	constructor() {
 		this.title = 'hello world';
 		this.value = 'nothing';
 	}
 
-	doSomething(arg){
+	doSomething(arg) {
 		this.value = arg;
 	}
-
 }
+
