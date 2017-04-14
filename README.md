@@ -10,7 +10,7 @@
 [![dev-dependencies](https://img.shields.io/david/dev/nomocas/babelute-html-string-pragmatics.svg)]()
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-Simple DOM engine for babelute-html-lexicon.
+Simple String engine for babelute-html-lexicon.
 
 
 ## Usage
