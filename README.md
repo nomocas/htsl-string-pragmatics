@@ -12,7 +12,6 @@
 
 Simple String engine for htsl-lexicon.
 
-
 ## Usage
 
 ```
