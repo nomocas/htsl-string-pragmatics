@@ -7,7 +7,7 @@
  */
 
 import babelute from 'babelute';
-import htmlLexicon from 'babelute-html-lexicon'; // external
+import htmlLexicon from 'htsl-lexicon'; // external
 import toSlugCase from 'to-slug-case'; // for data-* attributes
 import htmlSpecialChars from 'nomocas-utils/lib/string/html-special-chars'; // for safe string output
 
@@ -18,8 +18,8 @@ const $baseOutput = babelute.FacadePragmatics.prototype.$output;
  * @type {FacadePragmatics}
  * @public
  * @example
- * import stringPragmas from 'babelute-html/src/html-to-string.js';
- * import htmlLexicon from 'babelute-html/src/html-lexicon.js';
+ * import stringPragmas from 'htsl/src/html-to-string.js';
+ * import htmlLexicon from 'htsl/src/html-lexicon.js';
  *
  * const h = htmlLexicon.initializer;
  * const sentence = h.div(state.intro).section(h.class('my-section').h1(state.title));

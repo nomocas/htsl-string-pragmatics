@@ -1,7 +1,7 @@
 {
-  "name": "babelute-html-string-pragmatics",
+  "name": "htsl-string-pragmatics",
   "version": "0.2.0",
-  "description": "String output engine for babelute-html-lexicon",
+  "description": "String output engine for htsl-lexicon",
   "main": "dist/bundles/index.js",
   "module": "dist/bundles/index.mjs",
   "jsnext:main": "dist/bundles/index.mjs",
@@ -29,14 +29,14 @@
     "html",
     "string render",
     "dsl",
-    "babelute-html-lexicon",
+    "htsl-lexicon",
     "pragmatics"
   ],
   "author": "Gilles Coomans",
   "license": "MIT",
   "dependencies": {
     "babelute": "^0.4.3",
-    "babelute-html-lexicon": "^0.2.3",
+    "htsl-lexicon": "^0.2.3",
     "nomocas-utils": "^0.3.0",
     "to-slug-case": "^1.0.0"
   },

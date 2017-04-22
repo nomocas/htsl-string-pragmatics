@@ -4,7 +4,7 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 
 const pkg = require('./package.json');
-// const external = ['babelute', 'babelute-html-lexicon']; // Object.keys(pkg.dependencies);
+// const external = ['babelute', 'htsl-lexicon']; // Object.keys(pkg.dependencies);
 
 export default {
 	entry: 'src/index.js',
@@ -13,7 +13,7 @@ export default {
 		nodeResolve(),
 		commonjs()
 	],
-	external: ['babelute', 'babelute-html-lexicon'],
+	external: ['babelute', 'htsl-lexicon'],
 	targets: [{
 		dest: pkg.main,
 		format: 'cjs',

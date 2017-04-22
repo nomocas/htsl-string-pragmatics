@@ -1,27 +1,27 @@
-# babelute-html-string-pragmatics
+# htsl-string-pragmatics
 
-[![Travis branch](https://img.shields.io/travis/nomocas/babelute-html-string-pragmatics/master.svg)](https://travis-ci.org/nomocas/babelute-html-string-pragmatics)
-[![bitHound Overall Score](https://www.bithound.io/github/nomocas/babelute-html-string-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/babelute-html-string-pragmatics)
-[![Coverage Status](https://coveralls.io/repos/github/nomocas/babelute-html-string-pragmatics/badge.svg?branch=master)](https://coveralls.io/github/nomocas/babelute-html-string-pragmatics?branch=master)
-[![npm](https://img.shields.io/npm/v/babelute-html-string-pragmatics.svg)]()
-[![npm-downloads](https://img.shields.io/npm/dm/babelute-html-string-pragmatics.svg)]()
-[![licence](https://img.shields.io/npm/l/babelute-html-string-pragmatics.svg)](https://spdx.org/licenses/MIT)
-[![dependecies](https://img.shields.io/david/nomocas/babelute-html-string-pragmatics.svg)]()
-[![dev-dependencies](https://img.shields.io/david/dev/nomocas/babelute-html-string-pragmatics.svg)]()
+[![Travis branch](https://img.shields.io/travis/nomocas/htsl-string-pragmatics/master.svg)](https://travis-ci.org/nomocas/htsl-string-pragmatics)
+[![bitHound Overall Score](https://www.bithound.io/github/nomocas/htsl-string-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/htsl-string-pragmatics)
+[![Coverage Status](https://coveralls.io/repos/github/nomocas/htsl-string-pragmatics/badge.svg?branch=master)](https://coveralls.io/github/nomocas/htsl-string-pragmatics?branch=master)
+[![npm](https://img.shields.io/npm/v/htsl-string-pragmatics.svg)]()
+[![npm-downloads](https://img.shields.io/npm/dm/htsl-string-pragmatics.svg)]()
+[![licence](https://img.shields.io/npm/l/htsl-string-pragmatics.svg)](https://spdx.org/licenses/MIT)
+[![dependecies](https://img.shields.io/david/nomocas/htsl-string-pragmatics.svg)]()
+[![dev-dependencies](https://img.shields.io/david/dev/nomocas/htsl-string-pragmatics.svg)]()
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-Simple String engine for babelute-html-lexicon.
+Simple String engine for htsl-lexicon.
 
 
 ## Usage
 
 ```
-> yarn i babelute babelute-html-lexicon babelute-html-string-pragmatics
+> yarn i babelute htsl-lexicon htsl-string-pragmatics
 ```
 
 ```javascript
-import htmlLexicon from 'babelute-html-lexicon';
-import 'babelute-html-string-pragmatics';
+import htmlLexicon from 'htsl-lexicon';
+import 'htsl-string-pragmatics';
 
 const h = htmlLexicon.initializer();
 

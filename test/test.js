@@ -1,6 +1,6 @@
 /* global describe, it */
 // import babelute from 'babelute';
-import htmlLexicon from 'babelute-html-lexicon';
+import htmlLexicon from 'htsl-lexicon';
 import '../src/index';
 import chai from 'chai';
 
