@@ -35,8 +35,8 @@
   "author": "Gilles Coomans",
   "license": "MIT",
   "dependencies": {
-    "babelute": "^0.4.3",
-    "htsl-lexicon": "^0.2.3",
+    "babelute": "^0.5.0",
+    "htsl-lexicon": "^0.2.4",
     "nomocas-utils": "^0.3.0",
     "to-slug-case": "^1.0.0"
   },
