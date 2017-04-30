@@ -138,7 +138,7 @@ class TagDescriptor {
 	}
 }
 
-const selfClosingTags = /area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr/;
+const selfClosingTags = /^(area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr)/;
 
 // TagDescriptor-to-string output
 function tagOutput(parent, tag, name) {
