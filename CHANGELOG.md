@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/nomocas/htsl-string-pragmatics/compare/v0.2.0...v0.2.1) (2017-04-30)
+
+
+### Bug Fixes
+
+* **package:** update dependencies ([a68009f](https://github.com/nomocas/htsl-string-pragmatics/commit/a68009f))
+* **package:** update dependency and switch to bithound badge in docs ([fdcd292](https://github.com/nomocas/htsl-string-pragmatics/commit/fdcd292))
+* **package:** update dev dependencies ([a970ced](https://github.com/nomocas/htsl-string-pragmatics/commit/a970ced))
+* **package.json:** lint ([5c7217c](https://github.com/nomocas/htsl-string-pragmatics/commit/5c7217c))
+* **repo:** rename repo in htsl-string-pragmatics ([5cb6887](https://github.com/nomocas/htsl-string-pragmatics/commit/5cb6887))
+* **self-closing-tags:** better regexp for textarea exclusion ([1f27c85](https://github.com/nomocas/htsl-string-pragmatics/commit/1f27c85))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2017-04-14)
 
