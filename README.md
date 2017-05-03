@@ -10,12 +10,14 @@
 [![licence](https://img.shields.io/npm/l/htsl-string-pragmatics.svg)](https://spdx.org/licenses/MIT)
 <!-- [![npm-downloads](https://img.shields.io/npm/dm/htsl-string-pragmatics.svg)]() -->
 
-Simple String engine for htsl-lexicon.
+Simple String engine for [htsl-lexicon](https://github.com/nomocas/htsl-lexicon).
+
+Look there for full docs.
 
 ## Usage
 
 ```
-> yarn i babelute htsl-lexicon htsl-string-pragmatics
+yarn add babelute htsl-lexicon htsl-string-pragmatics
 ```
 
 ```javascript
