@@ -1,6 +1,6 @@
 {
   "name": "htsl-string-pragmatics",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "String output engine for htsl-lexicon",
   "main": "dist/bundles/index.js",
   "module": "dist/bundles/index.mjs",
