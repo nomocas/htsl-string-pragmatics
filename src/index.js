@@ -67,8 +67,18 @@ const stringPragmas = babelute.createFacadePragmatics({
 	},
 
 	prop(tag, args) {
-		if (args[1])
-			tag.attributes += ' ' + args[0];
+		switch (args[0]) {
+			case 'innerText':
+			case 'innerHTML':
+				tag.attributes = args[1];
+				break;
+			case 'value':
+				tag.attributes += ' ' + writeAttribute('value', args[1]);
+				break;
+			default:
+				if (args[1])
+					tag.attributes += ' ' + args[0];
+		}
 	},
 
 	data(tag, args) {
@@ -79,11 +89,8 @@ const stringPragmas = babelute.createFacadePragmatics({
 	},
 
 	attr(tag, args /* name, value */ ) {
-		const value = args[1];
 		// tag.attributes += ' ' + args[0] + '="' + (typeof value === 'string' ? encodeHtmlSpecialChars(value) : value) + '"';
-		tag.attributes += ' ' + args[0] + '="' + (typeof value === 'string' ? value.replace(/"/g, '\\"')
-			.replace(/</g, '&lt;')
-			.replace(/>/g, '&gt;') : value) + '"';
+		tag.attributes += ' ' + writeAttribute(args[0], args[1]);
 	},
 
 	id(tag, args /* value */ ) {
@@ -153,6 +160,12 @@ function tagOutput(parent, tag, name) {
 		parent.children += out + '/>';
 	else
 		parent.children += out + '></' + name + '>';
+}
+
+function writeAttribute(name, value) {
+	return name + '="' + (typeof value === 'string' ? value.replace(/"/g, '\\"')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;') : value) + '"';
 }
 
 htmlLexicon.addAliases({
